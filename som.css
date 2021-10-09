@@ -1,0 +1,234 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    background-color: #f4f4f4;
+
+}
+
+.container{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	color: green;
+
+
+}
+
+ul{
+	margin: -10px -50px;
+	padding-left: 100px;
+}
+
+.light{
+	padding-top: 10px;
+	background-color: #35424a;
+	color: white;
+	font-size: 18px;
+
+}
+
+
+.light label:hover{
+	filter: hue-rotate(90deg);
+	transition:  all 1s forwards;
+
+}
+
+
+header{
+	background: #35424a;
+	color: white;
+	padding-top: 20px;
+	min-height: 60px;
+	border-bottom: blue 4px solid;
+	position: sticky;
+	top: 0; 
+}
+   
+
+header a{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	justify-content: space-between;
+	padding-left:30px;
+}
+
+header li {
+	float: left;
+	display: flex;
+	padding: 0px 1px 0px 1px;
+}
+
+header #selling{
+	float: left;
+}
+
+header #selling h1{
+	margin: -1px -90px;
+	padding: 1px 200px 0px 0px;
+	border-spacing: 2px solid;
+	float: left;
+}
+
+header nav{
+	float: right;
+    
+}
+
+header .show, header .live a{
+	color: #e8491d;
+	font-weight: bold;
+	padding-left: 10px;
+
+}
+
+header a:hover{
+	color: grey;
+	font-weight: bold;
+}
+
+.container #selling h1{
+	color:orchid;
+}
+
+.container #selling h1 span{
+	color: gold;
+}
+
+
+#style{
+	min-height: 500px;
+	background: url(https://miro.medium.com/max/762/1*L5QyrMNalM3yhtgdgBcvkQ.png) no-repeat;
+    background-size: 200px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+}
+
+#style h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#style p{
+	font-size: 20px;
+}
+
+#newsletter{
+	color: white;
+	float: right;
+	padding-right: -10px;
+}
+
+#newsletter h1{
+	
+	float: right;
+	padding-left: 130px;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+    color: #35424a;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 10px;
+}
+
+#newsletter input[type="email"]{
+	padding: 5px;
+	padding-right: 10px;
+	height: 20px;
+	width: 205px;
+
+}
+
+#style{
+	margin-top: 20px;
+}
+
+#style .circle{
+	float: left;
+	text-align: center;
+	width: 60%;
+	
+}
+
+#style .circle img{
+	width: 200px;
+}
+
+article#bar .quote input, aside#bar{
+	width: 40%;
+	padding: 3px 0px 0px 3px;
+}
+
+
+
+article#first-col{
+
+	width: 57%
+}
+
+article#first-col h1{
+	color: orchid;
+	padding-top: 10px;
+	padding-left: 45px;
+	font-size: 30px;
+}
+
+article#first-col h3{
+	color: orange;
+	padding-top: 40px;
+}
+
+article#first-col p{
+	background: #35424a;
+	padding-top: 10px;
+	color: white;
+
+}
+
+p::selection {
+	color: black;
+	background-color: cyan;
+}
+
+h3::first-letter{
+
+	font-size: 26px;
+	font-style: cursive;
+	font-weight: bold;
+	color: red;
+	text-decoration: underline;
+
+}
+
+
+footer{
+	padding: 10px;
+	margin-top: 1900px;
+	color: white;
+	background-color: #e8491d;
+	text-align: center;
+
+}
+
+@media screen and (max-width:700px) {
+	html {
+		font-size: 55%;`
+	}
+} 
+
+.circle {
+
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	padding: 10px;
+	width: 700px;
+}
+
+
+
